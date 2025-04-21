@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>My Music Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #FAFAFA;
+      color: #2E2E2E;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .track {
+      margin-bottom: 3rem;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 500px;
+      margin-top: 0.5rem;
+    }
+
+    .header {
+      border-bottom: 2px solid #9DBFAF;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 4rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>My Music</h1>
+    <p>自然体のサウンドで、心に残る音を。</p>
+  </div>
+
+  <div class="track">
+    <h2>Track 1: 森のうた</h2>
+    <audio controls>
+      <source src="audio/my-song1.mp3" type="audio/mpeg">
+      このブラウザはaudio要素をサポートしていません。
+    </audio>
+  </div>
+
+  <div class="track">
+    <h2>Track 2: 光と影</h2>
+    <audio controls>
+      <source src="audio/my-song2.mp3" type="audio/mpeg">
+      このブラウザはaudio要素をサポートしていません。
+    </audio>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 My Music
+  </div>
+</body>
+</html>
